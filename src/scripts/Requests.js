@@ -1,3 +1,3 @@
-export const getRequests = () => {
+export const Requests = () => {
     
 }

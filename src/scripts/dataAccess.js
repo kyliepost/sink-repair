@@ -15,6 +15,9 @@ export const fetchRequests = () => {
         )
 }
 
+export const getRequests = () => {
+    return dataAccess.requests.map(request => ({...request}))
+}
 
 // fetch ("http://localhost:5000/")
 // .then ((response) => {
