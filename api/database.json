@@ -1,21 +1,33 @@
 {
     "plumbers": [
-        {"id": 1, "name": "Myers"},
-        {"id": 2, "name": "Lisa"},
-        {"id": 3, "name": "Willie"}
+        {
+            "id": 1,
+            "name": "Myers"
+        },
+        {
+            "id": 2,
+            "name": "Lisa"
+        },
+        {
+            "id": 3,
+            "name": "Willie"
+        }
     ],
     "completions": [
-        {"id": 1, "requestId": 1, "plumberId": 1, "isCompleted": true}
+        {
+            "id": 1,
+            "requestId": 1,
+            "plumberId": 1,
+            "isCompleted": true
+        }
     ],
     "requests": [
         {
             "id": 1,
             "description": "Aut sint voluptatem fugit eius quas molestiae modi.",
             "address": "34445 Bianka Ports",
-            "budget": 400, 
+            "budget": 400,
             "neededBy": "2021-08-27"
         }
     ]
 }
-
-
