@@ -1,5 +1,7 @@
 const applicationState = {
-requests: []
+requests: [],
+plumbers: [],
+completions: []
 }
 
 const API = "http://localhost:8088"
@@ -19,12 +21,3 @@ export const getRequests = () => {
     return dataAccess.requests.map(request => ({...request}))
 }
 
-// fetch ("http://localhost:5000/")
-// .then ((response) => {
-//     return response.json();
-// })
-// .then ((requestsData) => {
-//     console.log(requestsData)
-
-// }
-// )
