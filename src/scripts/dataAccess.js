@@ -4,14 +4,9 @@ plumbers: [],
 completions: []
 }
 
-
-
-export const getRequests = () => {
-    return applicationState.requests.map(request => ({...request}))
-}
-
 const API = "http://localhost:8088"
 
+// fetch functions
 export const fetchRequests = () => {
     return fetch(`${API}/requests`)
         .then(response => response.json())
@@ -41,6 +36,10 @@ export const sendRequest = (userServiceRequest) => {
         })
 }
 
+// getter functions
+export const getRequests = () => {
+    return applicationState.requests.map(request => ({...request}))
+}
 
 
 
